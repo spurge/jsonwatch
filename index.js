@@ -15,8 +15,8 @@ function JsonWatch(filename) {
 
 	function emit() {
 		eventObj.emit.apply(eventObj, Array.prototype.slice.call(arguments, 0));
-		var longEventName = (arguments[0] + arguments[1]).split('/').join('-');
-		eventObj.emit.apply(eventObj, [ longEventName ].concat(Array.prototype.slice.call(arguments, 1)));
+		//var longEventName = (arguments[0] + arguments[1]).split('/').join('-');
+		//eventObj.emit.apply(eventObj, [ longEventName ].concat(Array.prototype.slice.call(arguments, 1)));
 	}
 
 	function parseJson(newJson, oldJson, path) {

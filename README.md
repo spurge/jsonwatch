@@ -4,7 +4,9 @@ Json file reader, which will emit events on the Json file content. It will also 
 
 ## Getting started
 
-First, require() `jsonwatch` and load your Json file
+First, install from npm by running `npm i jsonwatch`, or add `"jsonwatch": "1.0.x"` to your dependencies in your `package.json`.
+
+Then require() `jsonwatch` and load your Json file
 
  ```javascript
 var JsonWatch = require('jsonwatch');

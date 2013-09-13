@@ -28,7 +28,6 @@
 	],
 	"dependencies": {
 		"clone": "*",
-		"emitter-component": "*",
-		"irc": "*"
+		"emitter-component": "*"
 	}
 }

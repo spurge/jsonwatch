@@ -1,0 +1,34 @@
+{
+	"name" : "jsonwatch",
+	"version" : "1.0.0",
+	"description": "Json file reader, which will emit events on the Json file content. It will also watch your Json file for any changes and emit events which will tell you about the changes. This module was intended for reading/watching configuration files which may change while running an app.",
+	"keywords": [ "json", "event", "config", "configuration", "emitter" ],
+	"homepage": "https://github.com/alfreddatakillen/jsonwatch",
+	"bugs": {
+		"url": "https://github.com/alfreddatakillen/jsonwatch/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alfreddatakillen/jsonwatch.git"
+	},
+	"files": [
+		".gitignore",
+		".npmignore",
+		"AUTHORS",
+		"index.js',
+		"LICENSE",
+		"package.json",
+		"README.md"
+	],
+	"main": "index",
+	"license": "GPLv3",
+	"author": "Alfred Godoy <alfred@klandestino.se> (http://klandestino.se/)",
+	"contributors": [
+		"Alfred Godoy <alfred@klandestino.se> (http://klandestino.se/)"
+	],
+	"dependencies": {
+		"clone": "*",
+		"emitter-component": "*",
+		"irc": "*"
+	}
+}

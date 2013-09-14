@@ -93,10 +93,10 @@ When loading the Json above, those events will be emitted:
 
 1. `add`, with arguments: 1. `"/users"` and 2. `{}`
 2. `add`, with arguments: 1. `"/users/alfred"` and 2. `{}`
-3. `add`, with arguments: 1, `"/user/alfred/password"` and 2. `"qwerty"``
+3. `add`, with arguments: 1, `"/users/alfred/password"` and 2. `"qwerty"``
 4. `add`, with arguments: 1. `"/users/olof"` and 2. `{}`
-5. `add`, with arguments: 1, `"/user/olof/password"` and 2. `"123456"``
-6. `add`, with arguments: 1. `"/user/olof/aliases"` and 2. `[ "olle, "lol", "floflo" ]`
+5. `add`, with arguments: 1, `"/users/olof/password"` and 2. `"123456"``
+6. `add`, with arguments: 1. `"/users/olof/aliases"` and 2. `[ "olle, "lol", "floflo" ]`
 
 So, the paths are made from Json object keys. Any other type in a Json will become the "value".
 
